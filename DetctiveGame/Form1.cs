@@ -35,14 +35,16 @@ namespace DetctiveGame
                 else if (scene == 2) { scene = 3; }
                 else if (scene == 3) { scene = 5; }
                 else if (scene == 5) { scene = 7; }
-                else if (scene == 7) { scene = 99; } 
-                else if (scene == 99) {scene = 0; }
+                else if (scene == 7) { scene = 99; }
+                else if (scene == 10) { scene = 99; }
+                else if (scene == 99) { scene = 0; }
+                
             }
             else if (e.KeyCode == Keys.B) //blue button press
             {
                 if (scene == 0) { scene = 2; }
-                else if (scene == 2 ) { scene = 9; }
-                else if (scene == 1 ) { scene = 4; }
+                else if (scene == 2) { scene = 9; }
+                else if (scene == 1) { scene = 4; }
                 else if (scene == 4) { scene = 3; }
                 else if (scene == 3) { scene = 10; }
                 else if (scene == 10) { scene = 99; }
@@ -99,7 +101,7 @@ namespace DetctiveGame
                     break;
                 case 5:
                     outputLable.Text = "You see a dry pool of blood you tell forensics to get DNA from it." +
-                        " The next day you find out the who the killer is the next day. What now? ";
+                        " The next day you find out the who the killer is. What now? ";
                     redLabel.Text = "Let the FBI bring him in ";
                     blueLabel.Text = "bring him in yourself";
                     yellowLabel.Text = "";
