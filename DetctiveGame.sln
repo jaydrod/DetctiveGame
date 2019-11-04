@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetctiveGame", "DetctiveGame\DetctiveGame.csproj", "{3C37003D-9FEF-444A-A2CA-3A6C0B4D5998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C37003D-9FEF-444A-A2CA-3A6C0B4D5998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C37003D-9FEF-444A-A2CA-3A6C0B4D5998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C37003D-9FEF-444A-A2CA-3A6C0B4D5998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C37003D-9FEF-444A-A2CA-3A6C0B4D5998}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9AB6265-5878-48A9-A6F0-82A512BF1554}
+	EndGlobalSection
+EndGlobal
