@@ -7,18 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace DetctiveGame
 {
-    public partial class Form1 : Form
+    public partial class From1 : Form
     {
         // tracks what part of the game the user is at
         int scene = 0; 
-        public Form1()
+        public From1()
         {
             InitializeComponent();
             //display initial message and options
-            pictureBox1.Image = Properties.Resources.images; 
+            pictureBox1.Image = Properties.Resources.images;
+            SoundPlayer player = new SoundPlayer(Properties.Resources.heavy_rain_daniel_simon);
+            player.Play();
             outputLable.Text = "You are a detective at a crime scene. What do you do first";
             redLabel.Text = "Ask police what happened";
             blueLabel.Text = "Ask wittness what happened"; 

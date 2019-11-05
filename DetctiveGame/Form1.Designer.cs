@@ -1,6 +1,6 @@
 ﻿namespace DetctiveGame
 {
-    partial class Form1
+    partial class From1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(From1));
             this.blueLabel = new System.Windows.Forms.Label();
             this.redLabel = new System.Windows.Forms.Label();
             this.yellowLabel = new System.Windows.Forms.Label();
@@ -82,7 +83,7 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // Form1
+            // From1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -93,8 +94,9 @@
             this.Controls.Add(this.yellowLabel);
             this.Controls.Add(this.redLabel);
             this.Controls.Add(this.blueLabel);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "From1";
+            this.Text = "Detective Game TM";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
