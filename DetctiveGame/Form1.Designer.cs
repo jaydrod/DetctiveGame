@@ -39,34 +39,38 @@
             // blueLabel
             // 
             this.blueLabel.BackColor = System.Drawing.Color.Black;
+            this.blueLabel.Font = new System.Drawing.Font("Viner Hand ITC", 15.9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blueLabel.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.blueLabel.Location = new System.Drawing.Point(31, 759);
+            this.blueLabel.Location = new System.Drawing.Point(31, 659);
             this.blueLabel.Name = "blueLabel";
             this.blueLabel.Size = new System.Drawing.Size(2256, 98);
             this.blueLabel.TabIndex = 0;
             // 
             // redLabel
             // 
+            this.redLabel.Font = new System.Drawing.Font("Viner Hand ITC", 15.9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.redLabel.ForeColor = System.Drawing.Color.Firebrick;
-            this.redLabel.Location = new System.Drawing.Point(25, 675);
+            this.redLabel.Location = new System.Drawing.Point(33, 567);
             this.redLabel.Name = "redLabel";
             this.redLabel.Size = new System.Drawing.Size(2231, 73);
             this.redLabel.TabIndex = 1;
             // 
             // yellowLabel
             // 
+            this.yellowLabel.Font = new System.Drawing.Font("Viner Hand ITC", 15.9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.yellowLabel.ForeColor = System.Drawing.Color.Gold;
-            this.yellowLabel.Location = new System.Drawing.Point(12, 801);
+            this.yellowLabel.Location = new System.Drawing.Point(12, 796);
             this.yellowLabel.Name = "yellowLabel";
             this.yellowLabel.Size = new System.Drawing.Size(2199, 153);
             this.yellowLabel.TabIndex = 2;
             // 
             // outputLable
             // 
+            this.outputLable.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLable.ForeColor = System.Drawing.Color.Green;
             this.outputLable.Location = new System.Drawing.Point(12, 348);
             this.outputLable.Name = "outputLable";
-            this.outputLable.Size = new System.Drawing.Size(2186, 209);
+            this.outputLable.Size = new System.Drawing.Size(2275, 209);
             this.outputLable.TabIndex = 3;
             // 
             // pictureBox1
