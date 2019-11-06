@@ -47,6 +47,7 @@ namespace DetctiveGame
             {
                 if (scene == 0) { scene = 2; }
                 else if (scene == 2) { scene = 9; }
+                else if (scene == 9) { scene = 99; }
                 else if (scene == 1) { scene = 4; }
                 else if (scene == 4) { scene = 3; }
                 else if (scene == 3) { scene = 10; }
